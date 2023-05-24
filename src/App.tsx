@@ -16,6 +16,7 @@ function App() {
           <Layout>
             <Routes>
               <Route path={PUBLIC_ROUTES.default} element={<Home />} />
+              <Route path={PUBLIC_ROUTES.home} element={<Home />} />
             </Routes>
           </Layout>
         </AppThemeProvider>
